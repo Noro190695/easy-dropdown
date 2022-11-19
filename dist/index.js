@@ -1,0 +1,1 @@
+(()=>{"use strict";var o,s;(s=o||(o={})).EasyDropDownClassName="easy-dropdown",s.EasyDropDownItemClassName="easy-dropdown__item",s.EasyDropDownButtonClassName="easy-dropdown__clickable",s.EasyDropDownContentClassName="easy-dropdown__item_content",s.EasyDropDownIsCloseClassName="easy-dropdown__item_content_isclose"})();

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .drop-down {
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 3px;
+      }
+      .drop-down__items {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      .drop-down__item {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 300px;
+      }
+      .drop-down__item_link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 1px solid #01838f;
+        border-radius: 3px;
+        color: #01838f;
+        transition: 0.3s;
+      }
+      .drop-down__item_link:hover {
+        color: #ffffff;
+        background-color: #01838f;
+      }
+      .drop-down__item_content {
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 1px solid #01838f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="drop-down__items easy-dropdown">
+      <div class="drop-down__item easy-dropdown__item">
+        <a href="" class="drop-down__item_link">
+          LINK 1
+          <span class="material-symbols-outlined easy-dropdown__clickable">
+            expand_more
+          </span>
+        </a>
+        <div class="drop-down__item_content easy-dropdown__item_content">
+          Drop Down Content 1
+        </div>
+      </div>
+    </div>
+    <script src="./dist/index.js"></script>
+  </body>
+</html>
